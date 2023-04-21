@@ -1,17 +1,15 @@
 # PostgreSQL
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': '#Replace it with generated password#',
-        'HOST': 'localhost',
-        'PORT': '5432',
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "postgres",
+        "USER": "postgres",
+        "PASSWORD": "MzE1NC1sdmFsbGVq",
+        "HOST": "localhost",
+        "PORT": "5432",
     }
 }
 
-INSTALLED_APPS = (
-    'crud',
-)
+INSTALLED_APPS = ("crud",)
 
-SECRET_KEY = 'SECRET KEY for this Django Project'
+SECRET_KEY = "SECRET KEY for this Django Project"
